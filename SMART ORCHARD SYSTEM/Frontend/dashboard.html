@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <h2>🌳 Orchard System</h2>
+
+      <ul>
+        <li>Dashboard</li>
+        <li>Orchards</li>
+        <li>Spray Schedule</li>
+        <li>History</li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <div class="top-bar">
+        <h1>Dashboard</h1>
+
+        <button id="addOrchardBtn">+ Add Orchard</button>
+      </div>
+
+      <div class="stats">
+        <div class="card">
+          <h3>Total Orchards</h3>
+          <p id="orchardCount">3</p>
+        </div>
+
+        <div class="card">
+          <h3>Temperature</h3>
+          <p>22°C</p>
+        </div>
+
+        <div class="card">
+          <h3>Humidity</h3>
+          <p>80%</p>
+        </div>
+      </div>
+
+      <h2>Your Orchards</h2>
+
+      <div
+class="orchard-container"
+id="orchardContainer">
+</div>
+        <div class="orchard-card">
+          <h3>Apple Orchard A</h3>
+
+          <p>Location: Shopian</p>
+
+          <p>Crop: Apple</p>
+
+          <button>View Details</button>
+        </div>
+
+        <div class="orchard-card">
+          <h3>Apple Orchard B</h3>
+
+          <p>Location: Sopore</p>
+
+          <p>Crop: Apple</p>
+
+          <button>View Details</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
